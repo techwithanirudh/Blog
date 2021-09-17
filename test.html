@@ -1,0 +1,2696 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>School Management Web Application, School ERP, School Management System</title>
+
+
+<!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="codedthemes" />
+
+<link rel="icon" href="https://entrar.in/images/en_logo.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/icon/themify-icons/themify-icons.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/lightbox2/css/lightbox.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/swiper/css/swiper.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/icon/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/icon/icofont/css/icofont.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/css/jquery.mCustomScrollbar.css">
+
+<link rel="stylesheet" href="https://entrar.in/entrar_responsive_assets/files/assets/pages/chart/radial/css/radial.css" type="text/css" media="all">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/css/style.css">
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/css/buttons.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/css/buttons.dataTables.min.css">
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/jquery/js/jquery.min.js "></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/jquery-ui/js/jquery-ui.min.js "></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/popper.js/js/popper.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/bootstrap/js/bootstrap.min.js "></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/widget/excanvas.js "></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js "></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/modernizr/js/modernizr.js "></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/SmoothScroll.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/jquery.mCustomScrollbar.concat.min.js "></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/chart.js/js/Chart.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/widget/amchart/amcharts.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/widget/amchart/serial.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/widget/amchart/light.js"></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/swiper/js/swiper.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/swiper-custom.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/lightbox2/js/lightbox.min.js"></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/pcoded.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/vertical/vertical-layout.min.js "></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/js/jszip.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/js/pdfmake.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/js/vfs_fonts.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/dataTables.buttons.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/buttons.flash.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/jszip.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/vfs_fonts.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/buttons.colVis.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/data-table/extensions/buttons/js/extension-btns-custom.js"></script>
+
+
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/dashboard/custom-dashboard.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/script.js "></script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0166af39fe3c44148cbdcca33f1487c7"}'></script>
+
+<style type="text/css">
+     /*    .page-wrapper{
+         padding: 0.0rem !important;
+     }
+     .card{ margin-bottom: 10px; } */
+
+        nav.pcoded-header{background:linear-gradient(to right, #11c788, #54e2b7);}
+        .main-body .page-wrapper{padding: 0.0rem !important;}
+        .card{margin-bottom: 12px;}
+        .card .card-header{padding: 5px !important; }
+
+        .btn-success{
+           background:linear-gradient(to {$smarty.session.header_effect_direction}, {$smarty.session.header_first_color} , {$smarty.session.header_second_color} );
+            border-color: {$smarty.session.header_effect_direction};
+
+       
+           
+        }
+
+    .table td, .table th {
+        padding: .35rem;
+    }
+    .table.table-xs td, .table.table-xs th {
+        padding: 0.3rem;
+    }
+
+
+    
+    </style>
+<style>
+     /*    .page-wrapper{
+         padding: 0.0rem !important;
+     }
+     .card{ margin-bottom: 10px; } */
+
+        nav.pcoded-header{background:linear-gradient(to right, #11c788, #54e2b7);}
+        .main-body .page-wrapper{padding: 0.0rem !important;}
+        .card{margin-bottom: 12px;}
+        .card .card-header{padding: 5px !important;}
+
+
+         .btn-success{
+           background-color:#3ac33d !important;
+           border-color:#3ac33d !important;
+           border-radius: .3rem;
+           font-size: 18px;
+
+        }
+        .form-control-success{
+            border-color: #3ac33d !important;
+            color: #3ac33d !important; 
+            border-radius: .3rem;
+        }
+
+        a i {color:#3ac33d;}
+
+        .breadcrumb-header h5{color:#0a4077 ;}
+
+
+        .loader .circle::after {
+            background-color: #3ac33d;
+        }
+    </style>
+<style type="text/css">
+@media print
+{
+    #student_header{visibility:hidden;}
+    #student_menu {display: none;}
+ #enrar_logo{visibility:hidden;}
+} 
+</style>
+</head>
+<body>
+
+<div class="theme-loader">
+<div class="preloader3 loader-block">
+<div class="circ1 loader-danger"></div>
+<div class="circ2 loader-danger"></div>
+<div class="circ3 loader-danger"></div>
+<div class="circ4 loader-danger"></div>
+</div>
+</div>
+
+<div id="pcoded" class="pcoded">
+<div class="pcoded-overlay-box"></div>
+<div class="pcoded-container navbar-wrapper">
+<nav id="student_header" class="navbar header-navbar pcoded-header" style="background:linear-gradient(to right,#01326d,#01326d );">
+<div class="navbar-wrapper">
+<div class="navbar-logo" logo-theme="theme1">
+<a class="mobile-menu" id="mobile-collapse" href="#!">
+<i class="ti-menu"></i>
+</a>
+<div class="mobile-search">
+<div class="header-search">
+<div class="main-search morphsearch-search">
+<div class="input-group">
+<span class="input-group-addon search-close"><i class="ti-close"></i></span>
+<input type="text" class="form-control" placeholder="Enter Keyword">
+<span class="input-group-addon search-btn"><i class="ti-search"></i></span>
+</div>
+</div>
+</div>
+</div>
+<a href="https://entrar.in/">
+<img class="img-fluid" src="https://entrar.in/logo_dir/entrar_blue_logo.png" alt="Entrar Logo" style="margin-left:10%;" />
+</a>
+<a class="mobile-options">
+<i class="ti-more"></i>
+</a>
+</div>
+<div class="navbar-container container-fluid">
+<ul class="nav-left">
+<li>
+<h4 style=" vertical-align: middle; font-size:30px; line-height: 60px;color:#5ccc2b;">DELHI PUBLIC SCHOOL - BANGALORE SOUTH</h4>
+</li>
+</ul>
+<ul class="nav-right">
+<li>
+<div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+</li>
+
+
+<li class="user-profile header-notification">
+<a href="#!">
+<img src="https://entrarschool3.s3.ap-south-1.amazonaws.com/avatars/4646_student_AnirudhPhoto.jpg" class="img-radius" style="height: 50px; width: 50px;" />
+<span>ANIRUDH SRIRAM </span>
+<i class="ti-angle-down"></i>
+</a>
+<ul class="show-notification profile-notification">
+<li>
+<a href="https://entrar.in/parent_portal/student_full_profile">
+<i class="ti-user"></i> Profile
+</a>
+</li>
+<li>
+<a href="https://entrar.in/parent_portal/student_setting">
+<i class="ti-settings"></i> Settings
+</a>
+</li>
+
+<li>
+<a href="https://entrar.in/login/logout">
+<i class="ti-layout-sidebar-left"></i> Logout
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div id="sidebar" class="users p-chat-user showChat">
+<div class="had-container">
+<div class="card card_main p-fixed users-main">
+<div class="user-box">
+<div class="chat-search-box">
+<a class="back_friendlist">
+</a>
+</div>
+<div class="main-friend-list">
+<div class="media userlist-box">
+</div>
+<div class="media userlist-box">
+</div>
+<div class="media userlist-box">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="pcoded-main-container">
+<div class="pcoded-wrapper">
+
+<style>
+ li > a > .pcoded-micon {
+            padding: 0px;
+            margin-right: 20px !important;
+        }
+
+ li > a .pcoded-mtext {
+                top: 15px !important;
+            }
+
+/*.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu .pcoded-submenu li
+{
+    background-color: #D3E5F4;
+}
+
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu .pcoded-submenu li hover
+{
+    background-color: #D3E5F4;
+}   */
+</style>
+
+<nav class="pcoded-navbar" id="student_menu">
+<div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+<div class="pcoded-inner-navbar main-menu">
+<ul class="pcoded-item pcoded-left-item">
+<li class="">
+<a href="https://entrar.in/">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/dashboard.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Dashboard</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/profile.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Profile</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/parent_portal/student_full_profile">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Profile</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+<a href="https://entrar.in/parent_portal/parent_details">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Parent</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class=" ">
+<a href="https://entrar.in/parent_portal/school_info">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My School</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_infirmary/infirmary">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Infirmary Detail</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_student_achievement/student_achievement">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Achievement</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/parent_portal/transport_detail">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Transport Detail</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</li>
+
+<li class="">
+<a href="https://entrar.in/parent_portal/myprofile">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/id_card_info.svg" class="f-left" /></span>
+<span class="pcoded-mtext">ID Card Info</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/school.svg" class="f-left" /></span>
+<span class="pcoded-mtext">School</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/parent_portal/event_calendar">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Calendar</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_announcement/announcement">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Announcement</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_assignment/classassignment">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Assignment</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_circular/circular">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Circular</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_news_letter/news_letter">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Newsletters</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_question_bank/question_bank">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Question Bank</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class=" ">
+<a href="https://entrar.in/pp_studentattendance/studentattendance">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Attendance</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class=" ">
+<a href="https://entrar.in/parent_portal/gallery">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">School Gallery</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_entrar_forms/entrar_forms">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Entrar Forms</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_video_gallery/video_gallery">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Video Gallery</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/parent_portal/photoalbum">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">School Photos</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/te_weekly_magazine/st_display">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Audio Gallery</span>
+<span class="pcoded-mcaret"></span>
+</a>
+ </li>
+</ul>
+</li>
+<li class="">
+<a href="https://entrar.in/pp_result/exam_result">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/result.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Results</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class=" ">
+<a href="https://entrar.in/pp_entrar_forms/entrar_forms">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/II_III_Lang_Form.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Entrar Forms</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+<a href="https://entrar.in/fee_student_feeledger_razor_routes_new/index">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/fees.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Fee</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+
+
+
+
+<!-- -->
+
+
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/II_III_Lang_Form.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Requisition Form</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/attachments/Principal_Sign/bonafide_certificate.pdf" download="bonafide_certificate">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Bonafide Certificate</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+<a href="https://entrar.in/attachments/Principal_Sign/inter_DPS_transfer.pdf" download="inter_DPS_transfer">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Inter DPS Transfer</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</li>
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/unifrom.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Uniform</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/ecommerce_parents/index">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Uniform</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+ <a href="https://entrar.in/ecommerce_parents/my_order">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">My Order</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://entrar.in/st_book_stall/index">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/student/II_III_Lang_Form.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Book</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class="">
+<a href="https://entrar.in/classroom_creation_crm_new/s_display">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/blue/Online__classroom.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Online Classroom</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/blue/assessment.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Online Assessment</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/online_exam_student_test/index">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Online Assessment </span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+
+<li class="">
+<a href="https://entrar.in/online_exam_result_new/index">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Class Test Result</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+<a href="https://entrar.in/online_exam_result_new/result_list">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Assessment Result</span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</li>
+<li class="pcoded-hasmenu">
+<a href="javascript:void(0)">
+<span class="pcoded-micon"><img src="https://entrar.in/entrar_responsive_assets/files/assets/icon/menu_icons/blue/assessment.svg" class="f-left" /></span>
+<span class="pcoded-mtext">Online Assignment</span>
+<span class="pcoded-mcaret"></span>
+</a>
+<ul class="pcoded-submenu">
+<li class="">
+<a href="https://entrar.in/practical_exam_student_test/index">
+<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+<span class="pcoded-mtext">Online Assignment </span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</li>
+
+<li class="">
+<a href="#">
+<span class="pcoded-micon"></span>
+<span class="pcoded-mtext"></span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+<li class="">
+<a href="#">
+<span class="pcoded-micon"></span>
+<span class="pcoded-mtext"></span>
+<span class="pcoded-mcaret"></span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+<style> 
+
+
+.pcoded[theme-layout="vertical"][vertical-placement="left"][vertical-nav-type="expanded"][vertical-effect="shrink"] .pcoded-content {
+    margin-left: 0px;
+}
+div {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+</style>
+<style>
+.descriptor{
+  float:left;
+  list-style:none;
+  height:12px; 
+  width:12px;
+  cursor: pointer; 
+  margin:4px;
+  padding:5px;
+  text-align:center;
+  font-weight:bolder;
+  color:#fff;
+  
+}
+
+.ans{ background-color:#090; }
+.not_v{ background-color:red;}
+.curr{ background-color:#01326d;}
+</style>
+<style>
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#fff;
+  opacity: 0.8;
+} 
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #fff; 
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #666; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc; 
+}    
+    
+row {
+     overflow-x: hidden;
+    overflow-y: scroll !important;
+
+}
+
+
+ .text-wrap{
+    white-space:normal;
+}
+
+.ques_palet{
+  float:left;
+  list-style:none;
+  height:40px;
+  width:40px;
+  cursor: pointer; 
+  margin:6px;
+  padding:10px;
+  text-align:center;
+  font-weight:bolder;
+  color:#fff;
+  border-radius: 5px;
+}
+
+
+.btnhover:hover
+{ 
+   background-color: #090!important;
+}
+
+</style>
+
+<div class="modal fade" id="small-Modal" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body" style="text-align:center;">
+<h3>The Exam is Ready</h3>
+<hr />
+<p style="font-size:16px;">You are not allowed to leave the exam, and your teacher will be notified if you do so.</p>
+
+<div id="fullscreen-div" style="overflow:scroll;">
+<button id="toggle-fullscreen" class="btn btn-success">Start Exam</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="locked-small-Modal" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+
+<div class="modal-body" style="text-align:center;">
+<h3>Locked Out</h3>
+<hr />
+<p style="font-size:16px;">you have been temporarily locked out from the exam.
+<br />
+The exam area has lost focus.
+<br />
+Please provide explanation here.
+</p>
+<textarea class="form-control" id="explanation" name="explantion" placeholder="Type your explanation here:"></textarea>
+<br>
+
+<div id="fullscreen-div2">
+<button id="toggle-fullscreen2" class="btn btn-success">Request Unlock</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="instruction-small-Modal" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Instructions</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body" style="text-align:left; width: 100%; overflow: auto;">
+<p style="font-size:14px; white-space:pre;"><b>Attempt all the questions
+Total number of questions 1-25<br /></b>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<input type="hidden" id="s3rootpath" value="https://entrarschool3.s3.ap-south-1.amazonaws.com/" />
+<input type="hidden" id="rootpath" value="https://entrar.in/" />
+<input type="hidden" id="student_id" value="200480" />
+<input type="hidden" id="school_id" value="3" />
+<input type="hidden" id="school_section_id" value="191" />
+<input type="hidden" id="academicyear_id" value="209" />
+<input type="hidden" id="end_time" value="2021/09/15 13:45" />
+<input type="hidden" id="start_time" value="2021/09/15 13:10" />
+<input type="hidden" id="currentDateTime" value="2021/09/15 13:19" />
+
+<input type="hidden" id="camera_capture_time" value="0">
+<input type="hidden" id="is_chat_active" value="0">
+<input type="hidden" id="is_voice_recognition_active" value="0">
+<input type="hidden" id="is_full_screen_active" value="0">
+<input type="hidden" id="is_exam_prep_time_required" value="0">
+<input type="hidden" id="exam_prep_time_min" value="0">
+<input type="hidden" id="teacherName" value="">
+<input type="hidden" id="teacher_user_id" value="">
+<input type="hidden" id="teacher_chat_status" value="">
+<input type="hidden" id="check_question_panel_view" value="1">
+<input type="hidden" id="Countstudentrecording" value="">
+<input type="hidden" id="CountTestwiseQAuestions">
+<input type="hidden" id="is_screen_capture_active" value="0">
+<input type="hidden" id="screen_capture_time" value="0">
+<input type="hidden" id="min_time_submit" value="15">
+<input type="hidden" id="multi_face_capture_active" value="0">
+<input type="hidden" id="camera_active" value="0">
+<input type="hidden" id="enc_student_id" value="81ac7b09f163783dc8f8436b2d64bd91">
+<input type="hidden" id="enc_school_id" value="eccbc87e4b5ce2fe28308fd9f2a7baf3">
+<input type="hidden" id="enc_test_id" value="619d2a97e00bebf0853705dc8973c56a">
+<input type="hidden" id="offset" value="25">
+<input type="hidden" id="test_id" value="25185">
+<div class="pcoded-content">
+<div class="pcoded-inner-content">
+
+<div class="main-body">
+<div class="page-wrapper">
+
+
+<form method="post" id="apterp">
+<div class="page-body">
+<div class="row">
+<div class="col-md-7">
+<div style=" margin-top: 5px;">
+<b><h5 align="left">MID TERM SCIENCE OBJECTIVE PAPER SET 1</h5></b>
+<span id="errorMsg" style="color:red;"></span>
+</div>
+</div>
+<div class="col-md-5">
+<div class="card2" style="float:right;">
+(<b>Total Marks: 25</b>)
+<b>Time: 13:10</b>
+<b> - 13:45</b>
+<br>
+<input type="hidden" id="total_time" value="35">
+</div>
+</div>
+</div>
+<style type="text/css">
+@media (min-width: 280px) {
+    #main_panel {overflow: scroll; max-height: 400px;}
+}
+
+@media (min-width: 360px) {
+    #main_panel {overflow: scroll; max-height: 450px;}
+}
+
+@media (min-width: 375px) {
+    #main_panel {overflow: scroll; max-height: 600px;}
+}
+
+@media (min-width: 400px) {
+    #main_panel {overflow: scroll; max-height: 550px;}
+}
+
+@media (min-width: 411px) {
+    #main_panel {overflow: scroll; max-height: 630px;}
+}
+
+@media (min-width: 414px) {
+    #main_panel {overflow: scroll; max-height: 590px;}
+}
+
+@media (min-width: 576px) {
+    #main_panel {overflow: scroll; max-height: 500px;}
+}
+
+@media (min-width: 768px) { 
+  #main_panel {overflow: scroll; max-height: 800px;}
+}
+
+@media (min-width: 992px) {
+  #main_panel {overflow: scroll; max-height: 600px;}
+
+}
+
+@media (min-width: 1024px) {
+  #main_panel {overflow: scroll; max-height: 900px;}
+
+}
+
+@media (min-width: 1200px) {
+  #main_panel {overflow: scroll; max-height: 600px;}
+
+}
+</style>
+<div class="row" id="main_panel">
+<div class="form-group col-md-12">
+
+<div class="" id="internet_connection">
+<strong id="demo"></strong>
+</div>
+
+
+<div class="" id="internet_poor_connection">
+<strong id="poor_demo"></strong>
+</div>
+
+</div>
+
+<div class="col-md-9">
+<div class="card">
+
+<div class="col-md-12">
+<div class="table-responsive1" style="overflow: scroll; height:30%!important;">
+<div id="player-digital-title" style="font-size:18px; width:100%; white-space: normal;"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card">
+<div class="col-md-12" style="padding-top:15px;">
+<span style="color:red; white-space:pre-line;">Note: Please click on the <b>Submit</b> Button once you have completed the Test.</span>
+<br><a id="instruction_modal_btn"><u>Read Instruction...</u></a>
+<br>
+<a style="color: #fff; width:100%; margin-top:15px;" class="btn btn-success" id="submit_btn">Submit Test</a><br><br>
+
+<div class="form-group col-md-12">
+</div>
+
+<a class="btn btn-success1" style="color: #fff; width:100%; background:#666; border-radius: 5px;" id="exitexam_btn">Exit Test</a><br><br>
+</div>
+</div>
+</div>
+
+</div>
+<div id="result_path" style="display:none;">
+https://entrar.in/online_exam_student_recording_3/result/R205NkorUUlyUTBtNy9aZWFLbDkwUT09
+</div>
+<div id="final_result_path" style="display:none;">
+https://entrar.in/online_exam_student_recording_3/testscreen/R205NkorUUlyUTBtNy9aZWFLbDkwUT09
+</div>
+<div id="next_test_path" style="display:none;">
+https://entrar.in/online_exam_student_recording_3/testscreen/R205NkorUUlyUTBtNy9aZWFLbDkwUT09
+</div>
+<div id="invalid_attempt" style="display:none;">
+https://entrar.in/online_exam_student_test/index
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<div class="footer bg-inverse1" style="background-color: #01326d;line-height: 0.5;">
+<table class="table1" width="74%" border="0">
+<tr>
+<td width="100">
+<input type="submit" name="prev_ques" value="Previous" id="prev_ques" class="btn btn-success prev_ques" style="margin-left: 10px;" />
+</td>
+<td width="100">
+
+<p align="center" style="font-size:20px; color:#fff;" id="pagination">
+<b id="no_ques" style="color:#fff;"></b> <b id="total_no_ques"></b>
+</p>
+
+</td>
+<td align="right" width="100">
+<input type="submit" name="next_ques" value="Next" id="next_ques" class="btn btn-success next_ques" />
+</td>
+</tr>
+</table>
+</div>
+
+<div style="width: 100%; height: 1302px; display:none; opacity: 0.8; text-align:center; padding-top:200px;" id="mask">
+<img src="https://entrar.in/images/save_load.gif" id="LoadingImage" />
+</div>
+
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/assets/pages/notification/notification.css">
+<link rel="stylesheet" type="text/css" href="https://entrar.in/entrar_responsive_assets/files/bower_components/animate.css/css/animate.css">
+<script type="text/javascript" src="https://entrar.in/script/CountDown.js"></script>
+<script type="text/javascript" src="https://entrar.in/entrar_responsive_assets/files/assets/js/styleSelecter.js"></script>
+
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/bootstrap-growl.min.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/pages/notification/notification.js"></script>
+<script src="https://entrar.in/entrar_responsive_assets/files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.5/dat.gui.min.js"></script>
+<script>
+
+$(document).ready(function () {
+/*  $(".full-screen-scroller").fullScreenScroller({
+    options
+  });*/
+});
+
+//Open Instructions Modal
+$(document).on("click", "#instruction_modal_btn" , function(e) {  
+   e.preventDefault();
+  
+  $('#instruction-small-Modal').modal({backdrop: 'static', keyboard: true}); 
+});
+
+
+$(document).on("click", "#exitexam_btn" , function(e) {  
+   e.preventDefault();
+    
+    if(confirm('Do you want to Exit, without Submitting the Exam? '))
+    {
+       window.location= $('#invalid_attempt').html();
+    }
+  
+});
+
+
+function notify(message, type){
+  $.growl({
+    message: message
+  },{
+    type: type,
+    allow_dismiss: false,
+    label: 'Cancel',
+    className: 'btn-xs btn-inverse',
+    placement: {
+      from: 'bottom',
+      align: 'center'
+    },
+    delay: 2500,
+    animate: {
+        enter: 'animated fadeInRight',
+        exit: 'animated fadeOutRight'
+    },
+    offset: {
+      x: 30,
+      y: 30
+    }
+  });
+};
+  
+
+var Module = {
+   wasmBinaryFile: 'https://huningxin.github.io/opencv.js/build/wasm/opencv_js.wasm',
+  preRun: [function() {
+  Module.FS_createPreloadedFile('/', 'haarcascade_eye.xml', 'https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_eye.xml', true, false);
+  Module.FS_createPreloadedFile('/', 'haarcascade_frontalface_default.xml', 'https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml', true, false);
+  Module.FS_createPreloadedFile('/', 'haarcascade_profileface.xml', 'https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_profileface.xml', true, false);
+  }],
+  _main: function() {
+    opencvIsReady();
+    }
+};
+</script>
+<script src="https://huningxin.github.io/opencv.js/build/wasm/opencv.js"></script>
+<script type="text/javascript" src="https://entrar.in/entrar_responsive_assets/files/assets/js/camera_s3bucket.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fecha/2.3.1/fecha.min.js"></script>
+<script>
+
+//disblae ctrl + T / ctrl + N
+$(window).keydown(function(event) {
+    if(event.ctrlKey && (event.keyCode == 84 || event.keyCode == 78 || event.keyCode == 18  || event.keyCode == 9 )) { 
+       // $('body').html("Hey! Ctrl+N event captured!");
+            event.preventDefault(); 
+  }
+});
+
+$(document).ready(function(){
+    $(document).keyup(function (e) {
+       var code = (e.keyCode ? e.keyCode : e.which);
+
+            if(code==84)
+            {
+               // alert("F1 pressed");
+            }
+
+    });
+  
+  $(document).keydown(function (event) {
+    if (event.keyCode == 123) { // Prevent F12
+      return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+      return false;
+    }
+  });
+  
+ });
+
+
+//disbale right click
+$(document).bind("contextmenu",function(e){
+ return false;
+});
+
+//disbale copy paste
+$('body').bind('copy paste',function(e) {
+   e.preventDefault(); return false; 
+});
+
+
+
+  var i=1;
+    
+var clickedID=0;
+var chk_pre_examTime_ques_loading = 0;
+var APP = APP || {}
+  window.setInterval(function()
+  {
+    isOnline();
+  //checkInternetConnection();
+  
+    var is_chat_active = $('#is_chat_active').val();
+    //if chat service active then last activtiy update
+    if(is_chat_active==1)
+    update_last_activity();
+      
+    var end_time = $('#end_time').val();
+    var currentdate = new Date(); 
+    var path = $('#result_path').html();
+    var time = Date.now() ;
+    
+    var endt = new Date(end_time);
+    endt = endt.getTime();
+    
+    var myData = 'getCurrentTime=true'; 
+    // alert(myData);    
+    jQuery.ajax({
+    type: "POST",
+    dataType:"text", 
+    data:myData, 
+    success:function(response){
+        var time = new Date(response);
+
+        Currenttime = time.getTime();
+          
+        //alert(Currenttime+'>'+endt);
+        if(Currenttime > endt)
+        {
+        if(i==1)
+        {
+          alert( "Sorry! Your time is over now." );
+          
+          //submit the test and redirect to result page start here
+          var test_id = $('#test_id').val();            
+          var myData = 'finalsubmitRecording=true&test_id='+test_id; 
+          
+          jQuery.ajax({
+            type: "POST",
+            dataType:"text", 
+            data:myData, 
+            success:function(response){
+                        
+              if(response==1) 
+              window.location= path;
+              else
+              return false; 
+              },
+              error:function (xhr, ajaxOptions, thrownError){
+              
+              }
+          }); 
+          //submit the test and redirect to result page end here
+                            
+        }
+        i=i+1;
+        }
+                         
+      }
+    });
+    //Current time picking end here 
+
+
+
+     //early exam extra time 
+     var start_time = $('#start_time').val(); 
+
+      var is_exam_prep_time_required = $('#is_exam_prep_time_required').val();
+      //alert(is_exam_prep_time_required);
+      if(is_exam_prep_time_required==1)
+      {
+        var exam_prep_time_min = $('#exam_prep_time_min').val();
+        var new_start_time = GetEndDate(start_time, exam_prep_time_min);
+        
+        //alert(new_start_time);
+        
+        var newstartt = new Date(new_start_time);
+        newstartt = newstartt.getTime();
+        //alert(newstartt);
+      }
+      var check_question_panel_view = $('#check_question_panel_view').val();
+
+    //alert(Currenttime+'=='+newstartt);
+    
+      if(is_exam_prep_time_required==1 && check_question_panel_view==1)
+      {
+        if(Currenttime >= newstartt)  //current time greater then new start time
+        {
+          $('#check_question_panel_view').val('2');         
+          $('#exam_begin_msg').hide();
+          fetchQuestionsPanel(test_id);
+          
+        }
+      }
+      //early exam extra time  end
+      
+      
+
+  
+  }, 2000);
+
+
+  
+
+
+  window.onload = function()
+  {
+    $('#student_menu').hide();
+    //$("#student_menu").collapse('hide');
+    //document.getElementById("student_menu").style.width = "0";
+    //document.getElementsByClassName("pcoded").style.marginLeft= "0";
+    //document.getElementsByClassName("pcoded-content").style.marginLeft= "0";
+
+    localStorage.clear();
+    
+    var is_chat_active = $('#is_chat_active').val();
+    var is_full_screen_active = $('#is_full_screen_active').val();
+    
+    var is_screen_capture_active = $('#is_screen_capture_active').val();
+    
+    //if screen Capture active
+    if(is_screen_capture_active==1)
+    {
+    navigator.mediaDevices.getDisplayMedia({video: true})
+      .then(handleSuccess, handleError);
+    }
+    
+    
+    //speech recognition service
+    if(is_voice_recognition_active==1)
+    runSpeechRecognition();
+    
+    //DisplayTime();
+    
+    $('#result_path').hide();
+    //var test_time = $('#test_time').val();
+    var result_path = $('#result_path').html();   
+    var test_id = $('#test_id').val();
+    
+    var offset = $('#offset').val();
+    //alert(offset);
+    
+    if(is_full_screen_active==1)
+    {
+      //exam already started then open teacher explanation box
+      if(offset>0)
+      {
+      $('#locked-small-Modal').modal({backdrop: 'static', keyboard: false});  
+      }
+      //if exam not started yet then open start exam popup
+      if(offset==0)
+      {
+      $('#small-Modal').modal({backdrop: 'static', keyboard: false});
+      //$('#exit_fullscreen').hide();
+      }
+    }  
+    
+    var path = $('#result_path').html();
+
+    var currentDateTime = $('#currentDateTime').val();
+    var currentDateTime = new Date(currentDateTime);
+    Currenttime = currentDateTime.getTime();
+    
+    var start_time = $('#start_time').val();  
+    var startt = new Date(start_time);
+    startt = startt.getTime();
+    
+    var is_exam_prep_time_required = $('#is_exam_prep_time_required').val();
+    if(is_exam_prep_time_required==1)
+    {
+      var exam_prep_time_min = $('#exam_prep_time_min').val();
+      var new_start_time = GetEndDate(start_time, exam_prep_time_min);
+      
+      var newstartt = new Date(new_start_time);
+      newstartt = newstartt.getTime();
+    }
+    //early exam extra time 
+    
+    var end_time = $('#end_time').val();
+    var endt = new Date(end_time);
+    endt = endt.getTime();
+
+    //alert(offset);
+    
+    //alert(Currenttime + '=' + endt);
+    if(Currenttime < startt)  //check current time with start time
+    {           
+      alert('Error: Invalid Login.');
+      window.location= $('#invalid_attempt').html();
+      return false;
+    }
+    else if(Currenttime <= endt)  //if current time less then end time
+    {
+      //alert(Currenttime+'=='+newstartt);
+      if(is_exam_prep_time_required==1)
+      {
+        if(Currenttime >= newstartt)  //current time greater then new start time
+        {
+          fetchQuestionsPanel(test_id);
+          
+          
+          
+          //fetch Question pallete
+          //fetchQuestionPallete();
+        }
+      }
+      else
+      {
+        fetchQuestionsPanel(test_id);
+        
+        /*//on response load full screen 
+        var is_full_screen_active = $('#is_full_screen_active').val();
+        var offset =  $('#no_ques').text(); //$('#offset').val();
+        alert('offset'+offset);
+        if(is_full_screen_active==1)
+        {
+          //exam already started then open teacher explanation box
+          if(offset>=2)
+          {
+          $('#locked-small-Modal').modal({backdrop: 'static', keyboard: false});  
+          }
+          //if exam not started yet then open start exam popup
+          if(offset==1)
+          {
+          $('#small-Modal').modal({backdrop: 'static', keyboard: false});
+          //$('#exit_fullscreen').hide();
+          }
+        }   
+        //on response load full screen end here*/ 
+        
+        
+        //fetch Question pallete
+        //fetchQuestionPallete();
+      }
+      
+      
+    }
+    
+    
+  };
+  //Windows on load end
+  
+  function fetchQuestionsPanel(test_id)
+  {
+    var myData = 'showQuestionPanel=true&test_id='+test_id; 
+          
+    jQuery.ajax({
+    type: "POST",
+    dataType:"text", 
+    data:myData,
+    timeout: 5000,  
+    success:function(response){
+        //alert(response);        
+      
+      if (response) 
+      {
+        var treeObj = JSON.parse(response);
+        APP.myQuestionData = treeObj; //store reponse in global variable
+        //alert(treeObj);
+        renderQuestion(treeObj);  //print question panel
+        
+        
+      }
+      else
+      {
+        document.getElementById("internet_poor_connection").className = "alert alert-danger background-danger"; 
+            document.getElementById("poor_demo").innerHTML = "Your Internet Connection is Poor. Please check your internet connection.";  
+      }
+      
+      //$("#question_panel").html(response); //show submit button 
+      },
+      error:function (xhr, textStatus, errorThrown){
+      console.log(xhr+ textStatus+thrownError);
+      
+          if (textStatus == 'timeout') { 
+                       alert("Error : Data Not Loaded!");  
+                    } 
+      
+      }
+    });
+    //fetch Question End from ajax  
+  } 
+
+
+</script>
+<style>
+.pallete{
+  float:left;
+  list-style:none;
+  height:20px;
+  width:20px;
+  cursor: pointer; 
+  margin:3px;
+  padding:0px;
+  text-align:center;
+  font-weight:bolder;
+  color:#fff;
+  border-radius: 3px;
+  background:red;
+}
+
+
+.btnhover:hover
+{
+   background-color: #01326d!important;
+}
+</style>
+<script type="text/javascript">
+function renderQuestion(treeObj)
+{
+    
+  var count=treeObj.questionList.length;
+  var firstIndex=0,lastIndex=0;
+  var $ul = $("<ul></ul>");  
+  var $ul2 = $("<ul></ul>");
+
+  //console.log('count= '+count);
+  var sn=0;
+  var mylocalStorageKeyarray = [];
+  
+  for (var i=0; i< localStorage.length; i++) 
+  {
+    var key = localStorage.key(i);
+    var value = localStorage[key];
+    //console.log('localStorage '+key+':'+  value);
+    
+    mylocalStorageKeyarray.push(key);           
+  }
+  //alert(mylocalStorageKeyarray.length);
+  
+    var total_student_recording = 0;
+  $.each(treeObj.questionList,function(i,v) {
+      
+    //alert($.inArray($.trim(v.ques_id), mylocalStorageKeyarray) );
+  
+    if(v.server_answer != '' && v.server_answer!= null)
+    {
+      total_student_recording++;
+      //alert(total_student_recording);
+    }
+    //alert(v.server_answer);
+    
+    if(($.inArray($.trim(v.ques_id), mylocalStorageKeyarray)  != '-1' ) || (v.server_answer!=null))
+    var style= 'background-color:#090;';  
+    else
+    var style= 'background-color:red;';
+    //alert(style);
+              
+    $ul2.append($("<li class='pallete btnhover "+v.ques_id+"_pallete' style='"+style+"' data-title='"+sn+"'></li>").append($("<a></a>").attr({"class":"questions_pallete","id":v.ques_id+'_tracks'})
+         .html(v.ques_seque)));
+          
+
+    var index=i;
+    if(index==0)
+       firstIndex=v.id;
+    if(index==count-1)
+       lastIndex=v.id;
+    
+    sn++;  
+  });
+  
+  //show first Question
+  var Countstudentrecording = total_student_recording;//$('#Countstudentrecording').val();
+  $('#Countstudentrecording').val(total_student_recording);
+  var CountTestwiseQAuestions = treeObj.questionList.length;//
+  $('#CountTestwiseQAuestions').val(CountTestwiseQAuestions);
+  //alert(Countstudentrecording+'=='+CountTestwiseQAuestions);
+  if(Countstudentrecording==CountTestwiseQAuestions)
+  {
+  clickedID = CountTestwiseQAuestions-1;
+  }
+  else
+  {
+  clickedID = Countstudentrecording;
+  }
+  //alert(clickedID);
+  showQuestionPanel(clickedID);
+  
+  
+  $("#player-handwriting-title").empty().append($ul2);
+}
+
+//click on pallete
+$(document).on("click", "li.pallete" , function(e) {  
+   e.preventDefault();
+  //alert('hi');
+  //var title = this.title;
+  
+  if(isOnline() == true)  
+  { 
+  
+  var clickedID = $(this).attr('data-title');// this.data-title;
+  showQuestionPanel(clickedID);
+  }
+  else
+  {
+    alert('You are not connected to the internet. Please check your internet connection.');
+    return false;
+  }
+ 
+});
+
+
+$("#next_ques").click(function (e) {
+      e.preventDefault();
+    
+  if(isOnline() == true)  
+  {   
+    var treeObj = APP.myQuestionData;
+    var sitepath = $('#rootpath').val();
+    var school_id = $('#school_id').val();
+    
+      $('.tracks').removeClass('selected');
+    
+    var clickedID = $('#no_ques').html()-1;
+      clickedID++;
+    //alert(treeObj.questionList[clickedID-1].question );
+    
+    //show Next Question
+    showQuestionPanel(clickedID);
+    //notify('Successfully Saved.', 'inverse');
+    if(clickedID>lastIndex)
+        clickedID=firstIndex;
+        $('#'+(clickedID)+'_tracks').addClass('selected');
+        //document.getElementById('player-digital-title').innerHTML =  treeObj.questionList[clickedID-1].question ;    
+  }
+  else
+  {
+    alert('You are not connected to the internet. Please check your internet connection.');
+    return false;
+  }
+    
+});
+
+//previous button start
+    $("#prev_ques").click(function (e) {
+        e.preventDefault();
+     
+    if(isOnline() == true)  
+    {
+     
+      var treeObj = APP.myQuestionData;
+            $('.tracks').removeClass('selected');
+      
+        var clickedID = $('#no_ques').html()-1;
+        clickedID--;
+        //alert(treeObj.questionList[clickedID-1].question );
+        
+        //show Previous Question
+        showQuestionPanel(clickedID);
+       
+        
+       // document.getElementById('player-digital-title').innerHTML =  treeObj.questionList[clickedID-1].question ;
+         if(clickedID<firstIndex)
+          clickedID=lastIndex;
+          
+          
+          $('#'+(clickedID)+'_tracks').addClass('selected');      
+    }
+    else
+    {
+      alert('You are not connected to the internet. Please check your internet connection.');
+      return false;
+    }
+    }); 
+  //Prev Buttun End 
+  
+  
+  //Save button start
+    $("#save_btn").click(function (e) {
+    
+        e.preventDefault(); 
+    
+    var treeObj = APP.myQuestionData;
+    //alert(treeObj.questionList[clickedID].ques_id);
+        
+    
+    var clickedID = $('#no_ques').html()-1;
+    //alert(clickedID);
+    //Radio Button value
+    if(treeObj.questionList[clickedID].elem_type == 'Multiple_Choice')
+    {
+    var ans_var = '[name="answer_'+treeObj.questionList[clickedID].ques_id+'"]';  
+    
+    var student_selected_answer = $(ans_var+':checked').val();
+    treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+    }
+    
+    //subjective value
+    if(treeObj.questionList[clickedID].elem_type == 'Subjective')
+    {
+    var ans_var = '[name="answer_'+treeObj.questionList[clickedID].ques_id+'"]';
+      
+    var student_selected_answer = $(ans_var).val();
+    treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+    }
+    
+    //Checkbox value
+    if(treeObj.questionList[clickedID].elem_type == 'Checkboxes')
+    {               
+             var v = "answer_"+treeObj.questionList[clickedID].ques_id;
+
+       var append_checkbox_ans='';
+              //$('input:checkbox[name='+v+']:checked').each(function() {
+        $('.'+v).each(function() {  
+                  
+                  if($(this).prop("checked"))
+                  {
+                      checkbox_ans = $(this).val();           
+                      append_checkbox_ans += checkbox_ans+',';
+                  }
+              });
+              
+              var student_selected_answer = append_checkbox_ans;
+        treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+              //alert(student_selected_answer);
+    }
+    
+    
+    
+    var  i, x = "";
+    for (i in treeObj.questionList) 
+    {
+      x += treeObj.questionList[i] + "<br>";
+    }
+    
+    //store student selected answer in localstorage against ques id key
+    localStorage.setItem(""+treeObj.questionList[clickedID].ques_id+"", student_selected_answer);
+    //notify('Successfully Saved.', 'inverse');
+    //renderQuestion(x);  //print question panel
+    //$("#save_btn").hide();
+    
+    
+    var test_id = $('#test_id').val(); 
+    var academicyear_id = $('#academicyear_id').val();
+    var question_id = treeObj.questionList[clickedID].ques_id;
+    var answer = treeObj.questionList[clickedID].student_selected_answer;
+    var points = treeObj.questionList[clickedID].points; 
+    
+    var myData = 'saveRecording=true&showQuestionPanel=true&test_id='+test_id+'&question_id='+question_id+'&answer='+answer+'&points='+points+'&academicyear_id='+academicyear_id; 
+     //alert(myData);
+    //alert(answer);
+      if(answer != '' && typeof(answer)  !== "undefined")
+    {
+        /*jQuery.ajax({
+        type: "POST",
+        dataType:"text", 
+        data:myData, 
+        success:function(response){
+          //alert(response);
+          //MathJax.Hub.Queue(['Typeset',MathJax.Hub,'question_panel']);  // <-- YOU NEED THIS
+          if(response==1)
+          {
+            
+  
+          }
+          
+        },
+        error:function (xhr, ajaxOptions, thrownError){
+         
+        }
+       });*/
+     
+      if(isOnline() == true)  
+      {
+        //$('#mask').show();
+        notify('Successfully Saved.', 'inverse');
+        //$("#save_btn").show();
+        
+        var palleteBtn = '.'+question_id+'_pallete';
+        //alert(palleteBtn);
+        
+        $(palleteBtn).css({
+          'background-color': '#090',
+        });
+      }
+      else
+      {
+        alert('You are not connected to the internet. Please check your internet connection.');
+        return false;
+      }
+      
+     
+    }
+    else
+    {
+    notify('You have not selected any answer.', 'inverse');
+    $("#save_btn").show();
+    }
+    
+    if(answer != '' && typeof(answer)  !== "undefined")
+    {
+      setTimeout(function(){ 
+         $('#mask').show();
+      }, 1000);
+      setTimeout( function () {  $('#mask').hide(); }, 2000 );
+    }
+    
+        
+    }); 
+  //Save Buttun End
+  
+  
+  //print Question and options on onload / next click / prev click
+    function showQuestionPanel(clickedID)
+    {
+      //first question printing start     
+      var treeObj =  APP.myQuestionData;  
+      var s3rootpath = $('#s3rootpath').val();
+      //alert(s3rootpath);
+      var sitepath = $('#rootpath').val();
+      var school_id = $('#school_id').val();
+      
+      
+        //alert(treeObj.questionList[clickedID].question + clickedID );
+      
+      $('#no_ques').html(treeObj.questionList[clickedID].ques_seque);
+      
+      $('#total_no_ques').html(" / "+treeObj.questionList.length);
+      
+      //previous buttn show/hide
+      if(treeObj.questionList[clickedID].ques_seque==1)
+      $("#prev_ques").hide();         
+      else
+      $("#prev_ques").show();   
+      
+      //next buttn show/hide
+      //alert(treeObj.questionList.length + '==' + treeObj.questionList[clickedID].ques_seque);
+      if(treeObj.questionList[clickedID].ques_seque==treeObj.questionList.length)
+      $("#next_ques").hide();         
+      else
+      $("#next_ques").show();   
+      
+      
+      var quesContent = '';
+      quesContent += '<span style="float:left; font-size:14px; color:#000; font-weight:bold;">Question:</span> <span style="float:right; font-size:14px; color:red;">Marks : ' + treeObj.questionList[clickedID].points +'</span><table border="0" width="100%">';
+      quesContent += '<tr><td style="white-space: normal;" valign="top">' + treeObj.questionList[clickedID].question + '</td>'; 
+      
+      if(treeObj.questionList[clickedID].que_img != '' && treeObj.questionList[clickedID].que_img != null)
+      {//https://entrarschool1.s3.ap-south-1.amazonaws.com/online_assessment/question_photo/90552_question_Screenshot_(2).png
+      quesContent += '<td colspan="3"><a href="'+s3rootpath+'online_assessment/question_photo/'+treeObj.questionList[clickedID].que_img+'" data-lightbox="1" data-title="' + treeObj.questionList[clickedID].question + '"><img src="'+s3rootpath+'online_assessment/question_photo/'+treeObj.questionList[clickedID].que_img+'" width="150" title="click here to view large"></a></td></tr>';  
+      }
+      
+      ////////////////////////////////////////////
+      //if question type = Mutiple Choince MCQ
+      ///////////////////////////////////////////
+      if(treeObj.questionList[clickedID].elem_type == 'Multiple_Choice')
+      {       
+        for(var optCnt=0; optCnt < treeObj.questionList[clickedID].options.length; optCnt++)
+        {
+          if(optCnt%2 == 0)
+            $bgcolor = 'background:#f5f5f5;';
+          else
+              $bgcolor = 'background:#fff;';
+
+          //check local storage student selected answer againts per question id 
+          var checklocal = localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+"");
+          //alert(treeObj.questionList[clickedID].student_selected_answer);
+          var radioSelected = '';
+          if((treeObj.questionList[clickedID].server_answer == treeObj.questionList[clickedID].options[optCnt].ans_identify) 
+            || (checklocal == treeObj.questionList[clickedID].options[optCnt].ans_identify))
+          radioSelected = 'checked';
+          
+          //1 option start
+          quesContent += '<tr><td colspan="3" style="'+$bgcolor+' white-space: normal;"><input type="radio" class="questionElem" name="answer_'+treeObj.questionList[clickedID].ques_id+'" value="' + treeObj.questionList[clickedID].options[optCnt].ans_identify + '" '+radioSelected+'> ' + treeObj.questionList[clickedID].options[optCnt].elem_option+'</td>'; 
+          
+          if(treeObj.questionList[clickedID].options[optCnt].ans_img != '' && treeObj.questionList[clickedID].options[optCnt].ans_img != null)
+          {
+          quesContent += '<td style="'+$bgcolor+' white-space: normal;"><a href="'+s3rootpath+'online_assessment/question_elements_photo/'+treeObj.questionList[clickedID].options[optCnt].ans_img+'" data-lightbox="1" data-title="' + treeObj.questionList[clickedID].options[optCnt].elem_option + '"><img src="'+s3rootpath+'online_assessment/question_elements_photo/'+treeObj.questionList[clickedID].options[optCnt].ans_img+'" width="150" title="click here to view large"></a>';   
+          }
+          quesContent += '</td></tr>';
+        //1 option end 
+        }
+      }
+      
+      ////////////////////////////////////////////
+      //if question type = Check box
+      ////////////////////////////////////////////
+      if(treeObj.questionList[clickedID].elem_type == 'Checkboxes')
+      {
+        //alert(localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+""));
+        if(!!localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+"") && localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+"")!=null)
+        {
+          //local storage Start
+          var checklocal = localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+"");
+          var strLen = checklocal.length;
+          result = checklocal.slice(0,strLen-1);
+          
+          //array
+          var localStorageAnswer=result.split(',');
+          
+          var mylocalStorageAnswerarray = [];
+          for(var sn=0; sn < localStorageAnswer.length; sn++)
+          {
+          mylocalStorageAnswerarray.push(localStorageAnswer[sn]);
+          //alert(mylocalStorageAnswerarray[sn]);
+          }
+          //local storage End
+        }
+        else if(!!treeObj.questionList[clickedID].server_answer) 
+        {
+          var checkboxServerAns = treeObj.questionList[clickedID].server_answer;
+          var strLen = checkboxServerAns.length;
+          result = checkboxServerAns.slice(0,strLen-1);
+          
+          //array
+          var checkboxServerAnswer=result.split(',');
+          
+          var myServerDataarray = [];
+          for(var sn=0; sn < checkboxServerAnswer.length; sn++)
+          myServerDataarray.push(checkboxServerAnswer[sn]);
+          
+          //alert('server array'+myServerDataarray);  
+        }
+        
+        //alert(mylocalStorageAnswerarray + '=='+myServerDataarray);
+        
+        for(var optCnt=0; optCnt < treeObj.questionList[clickedID].options.length; optCnt++)
+        {
+          var checkboxSelected = '';
+          if(optCnt%2 == 0)
+            $bgcolor = 'background:#f5f5f5;';
+          else
+              $bgcolor = 'background:#fff;';
+          //alert(treeObj.questionList[clickedID].options[optCnt].ans_identify +'=='+mylocalStorageAnswerarray + '-->' + $.inArray($.trim(treeObj.questionList[clickedID].options[optCnt].ans_identify), mylocalStorageAnswerarray) +'>' + optCnt);
+                    
+          //match with local storage array variable                   
+          if(!!checklocal)
+          {
+            //alert('local');
+            if($.inArray($.trim(treeObj.questionList[clickedID].options[optCnt].ans_identify), mylocalStorageAnswerarray)  != '-1' )
+            checkboxSelected = 'checked';
+            else
+            checkboxSelected = '';
+          }
+          else if(!!treeObj.questionList[clickedID].server_answer)  
+          {
+            //alert(myServerDataarray);
+            if($.inArray($.trim(treeObj.questionList[clickedID].options[optCnt].ans_identify), myServerDataarray) != '-1' )
+            checkboxSelected = 'checked';
+            else
+            checkboxSelected = '';
+          }
+          //alert(checkboxSelected);
+          
+          //1 option start*/
+          quesContent += '<tr><td colspan="3" style="'+$bgcolor+' white-space: normal;"><input type="checkbox" class="questionElem answer_'+treeObj.questionList[clickedID].ques_id+'" name="answer_'+treeObj.questionList[clickedID].ques_id+'" value="' + treeObj.questionList[clickedID].options[optCnt].ans_identify + '" '+checkboxSelected+'> ' + treeObj.questionList[clickedID].options[optCnt].elem_option+'</td>'; 
+          
+          if(treeObj.questionList[clickedID].options[optCnt].ans_img != '' && treeObj.questionList[clickedID].options[optCnt].ans_img != null)
+          {
+          quesContent += '<td style="'+$bgcolor+' white-space: normal;"><a href="'+s3rootpath+'online_assessment/question_elements_photo/'+treeObj.questionList[clickedID].options[optCnt].ans_img+'" data-lightbox="1" data-title="' + treeObj.questionList[clickedID].options[optCnt].elem_option + '"><img src="'+s3rootpath+'online_assessment/question_elements_photo/'+treeObj.questionList[clickedID].options[optCnt].ans_img+'" width="150" title="click here to view large"></a>';   
+          }
+          quesContent += '</td></tr>';
+          //1 option end 
+          
+        }
+      }
+      
+      ////////////////////////////////////////////
+      //if question type = Subjective
+      ////////////////////////////////////////////
+      if(treeObj.questionList[clickedID].elem_type == 'Subjective')
+      {
+         var subjective_answer = '';
+         var checklocal = localStorage.getItem(""+treeObj.questionList[clickedID].ques_id+"");
+         //alert(treeObj.questionList[clickedID].server_answer + checklocal);
+        
+        
+        if(!!checklocal)
+        {
+          
+          subjective_answer = checklocal;
+        }
+        else if(!!treeObj.questionList[clickedID].server_answer)
+        {
+          
+          subjective_answer = treeObj.questionList[clickedID].server_answer;
+        }
+        
+        quesContent += '<tr><td colspan="3"><textarea  cols="10" style="word-wrap: break-word;" class="form-control questionElem" spellcheck="false" rows="8" style="white-space:pre;" name="answer_'+treeObj.questionList[clickedID].ques_id+'">'+subjective_answer+'</textarea></td></tr>'; 
+      }
+      
+      quesContent += '</table>';
+      
+      document.getElementById('player-digital-title').innerHTML = quesContent;
+    //first question printing end
+  }
+  
+  
+  
+  //Save the data onlclick of Radio button / checkbox / Textbox blur event
+  $(document).on("change blur", ".questionElem" , function(e) { 
+  
+        e.preventDefault(); 
+    
+    var treeObj = APP.myQuestionData;
+    //alert(treeObj.questionList[clickedID].ques_id);
+        
+    
+    var clickedID = $('#no_ques').html()-1;
+    //alert(clickedID);
+    //Radio Button value
+    if(treeObj.questionList[clickedID].elem_type == 'Multiple_Choice')
+    {
+    var ans_var = '[name="answer_'+treeObj.questionList[clickedID].ques_id+'"]';  
+    
+    var student_selected_answer = $(ans_var+':checked').val();
+    treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+    }
+    
+    //subjective value
+    if(treeObj.questionList[clickedID].elem_type == 'Subjective')
+    {
+    var ans_var = '[name="answer_'+treeObj.questionList[clickedID].ques_id+'"]';
+      
+    var student_selected_answer = $(ans_var).val();
+    treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+    }
+    
+    //Checkbox value
+    if(treeObj.questionList[clickedID].elem_type == 'Checkboxes')
+    {               
+             var v = "answer_"+treeObj.questionList[clickedID].ques_id;
+
+       var append_checkbox_ans='';
+              //$('input:checkbox[name='+v+']:checked').each(function() {
+        $('.'+v).each(function() {  
+                  
+                  if($(this).prop("checked"))
+                  {
+                      checkbox_ans = $(this).val();           
+                      append_checkbox_ans += checkbox_ans+',';
+                  }
+              });
+              
+              var student_selected_answer = append_checkbox_ans;
+        treeObj.questionList[clickedID].student_selected_answer = student_selected_answer;
+              //alert(student_selected_answer);
+    }
+    
+    
+    
+    var  i, x = "";
+    for (i in treeObj.questionList) 
+    {
+      x += treeObj.questionList[i] + "<br>";
+    }
+    
+    
+    //notify('Successfully Saved.', 'inverse');
+    //renderQuestion(x);  //print question panel
+    //$("#save_btn").hide();
+    
+    
+    var test_id = $('#test_id').val(); 
+    var academicyear_id = $('#academicyear_id').val();
+    var question_id = treeObj.questionList[clickedID].ques_id;
+    var answer = treeObj.questionList[clickedID].student_selected_answer;
+    var points = treeObj.questionList[clickedID].points; 
+    
+    var myData = 'saveRecording=true&showQuestionPanel=true&test_id='+test_id+'&question_id='+question_id+'&answer='+answer+'&points='+points+'&academicyear_id='+academicyear_id; 
+     //alert(myData);
+    //alert(answer);
+      if(answer != '' && typeof(answer)  !== "undefined")
+    {           
+      //check local storage student selected answer againts per question id 
+      var checklocal = localStorage.getItem(""+question_id+"");
+      //alert(checklocal+'=='+answer);
+      if(checklocal!=answer)
+      {
+        if(isOnline() == true)  
+        {             
+          jQuery.ajax({
+          type: "POST",
+          dataType:"text", 
+          data:myData, 
+          success:function(response){
+            //alert(isOnline() );
+            //MathJax.Hub.Queue(['Typeset',MathJax.Hub,'question_panel']);  // <-- YOU NEED THIS
+            if(response==1)
+            {
+              //$('#mask').show();
+              //notify('Successfully Saved.', 'inverse');
+              /*$("#save_btn").show();
+              */
+              //store student selected answer in localstorage against ques id key
+              localStorage.setItem(""+treeObj.questionList[clickedID].ques_id+"", student_selected_answer);
+              
+              var palleteBtn = '.'+question_id+'_pallete';
+              //alert(palleteBtn);
+              $(palleteBtn).css({
+                'background-color': '#090',
+              });                           
+            }
+            
+          },
+          error:function (xhr, ajaxOptions, thrownError){
+           
+          }
+         });
+        }
+        else
+        {
+          alert('You are not connected to the internet. Please check your internet connection.');
+          return false;
+        }
+        
+        
+      }
+    }
+    else
+    {
+    notify('You have not selected any answer.', 'inverse');
+    $("#save_btn").show();
+    }
+    
+    /*if(answer != '' && typeof(answer)  !== "undefined")
+    {
+      setTimeout(function(){ 
+         $('#mask').show();
+      }, 1000);
+      setTimeout( function () {  $('#mask').hide(); }, 2000 );
+    }*/
+    
+        
+    }); 
+  //Save Buttun End
+  
+  
+ 
+
+//************************************
+//start left time Start
+//************************************
+
+  var date1, date2;  
+  
+  var exam_end_time = $('#end_time').val();
+  var currentDateTime = $('#currentDateTime').val();
+  var currentDateTime = new Date(currentDateTime);
+  Currenttime = currentDateTime.getTime();
+  
+  date1 = currentDateTime;//new Date();
+  date2 = new Date(exam_end_time);
+  //alert(date1+'-'+date2);
+  var res = Math.abs(date1 - date2) / 1000;
+
+  var seconds = res;
+  var totalsec = res;
+  
+  //end left time
+  //showtime();
+  //show left time to end exam
+    function showtime() 
+  {
+    // 1 seconde eraf
+    totalsec--;
+    
+    var hrs = parseInt(totalsec / 3600, 10);
+    var min = parseInt((totalsec / 60) % 60, 10);
+    //var sec = parseInt((totalsec - (min * 60)),10);
+    var sec = parseInt((totalsec % 60),10);
+      if (parseInt(sec) > 0) {
+      document.getElementById("showtime").innerHTML = hrs + " Hrs " +  min + " Min " + sec + " Sec";
+      tim = setTimeout("showtime()", 1000);
+      } else {
+      if (parseInt(sec) == 0) {
+        document.getElementById("showtime").innerHTML = hrs + " Hrs " +  min + " Min " + sec + " Sec";
+        if (parseInt(min) == 0) {
+        clearTimeout(tim);
+        //alert("Time Up");
+        } else {
+        document.getElementById("showtime").innerHTML = hrs + " Hrs " +  min + " Min " + sec + " Sec";
+        tim = setTimeout("showtime()", 1000);
+        }
+      }
+  
+      }
+    }
+//************************************
+//start left time End
+//************************************
+
+
+////////////////////////////////
+///Click on Final Submit Btn////
+////////////////////////////////
+ //submit_btn
+  $("#submit_btn").click(function (e) {
+     
+    if(isOnline() == true)  
+    { 
+      if($('#min_time_submit').val()!="")
+        var min_time_submit = $('#min_time_submit').val();
+      else
+      var min_time_submit = 05;
+      
+      //if Pre check time also given
+      var is_exam_prep_time_required = $('#is_exam_prep_time_required').val();
+      if(is_exam_prep_time_required==1)
+        {
+        var exam_prep_time_min = $('#exam_prep_time_min').val();
+        
+        min_time_submit = parseInt(min_time_submit) + parseInt(exam_prep_time_min);
+      }
+      
+      var start_time = $('#start_time').val(); 
+      var min_final_submit_time = GetEndDate(start_time, min_time_submit);
+      //alert(min_final_submit_time);
+      
+          var min_final_submit_time = new Date(min_final_submit_time);
+      min_final_submit_time = min_final_submit_time.getTime();
+      
+      Currenttime = getServerTime();
+      //var d = fecha.parse(Currenttime, 'YYYY/MM/DD HH:mm');
+      //alert(Currenttime +">="+ min_final_submit_time);
+      if(Currenttime >= min_final_submit_time)  //current time greater then new start time
+      {
+      
+          if(confirm('Are you sure want to submit? After submitting you will not able to attempt the Test.'))
+          {
+          var test_id = $('#test_id').val();
+          var academicyear_id = $('#academicyear_id').val(); 
+          var path = $('#result_path').html(); 
+          
+          //submit the test and redirect to result page start here
+          var myData = 'finalsubmitRecording=true&test_id='+test_id+'&academicyear_id='+academicyear_id; 
+          //alert(myData);
+          
+          //submitFinalUnsavedQuestion();
+          
+          
+            jQuery.ajax({
+                type: "POST",
+                dataType:"text", 
+                data:myData, 
+                success:function(response){
+                            
+                  if(response==1) 
+                  {
+                    localStorage.clear();
+                   window.location= path;  
+                  }
+                  else
+                  return false; 
+                  },
+                  error:function (xhr, ajaxOptions, thrownError){
+                  
+                  }
+                }); 
+          
+          //submit the test and redirect to result page end here
+              
+          }//end if for confirm box
+      }
+      else
+      {
+        alert("You can't submit the exam now, minimum time required "+min_time_submit+" Min. (from Start Time).");
+        return false;
+      }
+      }
+    else
+    {
+      alert('You are not connected to the internet. Please check your internet connection.');
+      return false;
+    }
+  });
+  
+  
+  //fetch Server Time
+    function getServerTime()
+    {
+    var myData = 'getCurrentTime=true'; 
+    // alert(myData);    
+    jQuery.ajax({
+    type: "POST",
+    dataType:"text", 
+    data:myData, 
+    success:function(response){
+      //alert(response);
+      
+      //alert(response.replace(/ /g,"T"));
+        var time = new Date(response);
+    
+        Currenttime = time.getTime();
+          //alert(response+'=='+time+'=='+Currenttime);
+                         
+      }
+    });
+    return Currenttime;
+  }
+    //Current time picking end here    
+  
+  
+  //submit all questions when click on submit btn   
+  function submitFinalUnsavedQuestion()
+  {
+    var treeObj = APP.myQuestionData;
+    //alert(treeObj);
+    console.log(""+treeObj);
+    
+    
+    
+      
+  }
+  
+
+</script>
+<script type="text/javascript" src="https://entrar.in/entrar_responsive_assets/files/assets/js/screen_capture.js"></script>
+<script>
+var camera_capture_time = parseInt($('#camera_capture_time').val());
+
+window.setInterval(function(){
+  const canvas = window.canvas = document.querySelector('canvas');
+
+   canvas.width = video.videoWidth;
+   canvas.height = video.videoHeight;
+   canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+   var mimeType =  "image/jpeg";
+  var dataUrl = canvas.toDataURL("image/jpeg", 0.85);
+  var cres = dataUrl.split(":");
+
+  //console.log('captured Img= '+dataUrl+'='+cres[1]); 
+  if (cres[1] != ",") 
+  {
+     // Convert canvas to Blob, then Blob to ArrayBuffer.
+    canvas.toBlob((blob) => {
+    const reader = new FileReader();
+    reader.addEventListener('loadend', (evt) => {
+      const arrayBuffer = evt.target.result;
+     // bufferByteLen.textContent = arrayBuffer.byteLength + ' bytes.';
+      
+      // Dispay Blob content in an Image.
+      const blob = new Blob([arrayBuffer], {type: mimeType});
+      //APP.myfileData = URL.createObjectURL(blob);
+    });
+    reader.readAsArrayBuffer(blob);
+    reader.onload = function (evt) 
+      {                 
+         var text = evt.target.result;         
+         APP.myfileData = text;
+               
+      }
+    
+    }, mimeType);
+  
+  
+  
+    var test_id = $('#test_id').val();
+    var school_id = $('#school_id').val();
+    var student_id = $('#student_id').val();
+    
+    var enc_student_id = $('#enc_student_id').val();
+    var enc_school_id = $('#enc_school_id').val();
+    var enc_test_id = $('#enc_test_id').val();
+  
+    //file upload in s3 bucket  
+    callTest(test_id, school_id, student_id, enc_student_id, enc_school_id, enc_test_id); 
+  } 
+    
+}, camera_capture_time);// 20 sec
+
+//s3 bucket file upload start
+var captured_img_count = 1;
+function callTest(test_id, school_id, student_id, enc_student_id, enc_school_id, enc_test_id)
+{
+  var mm = Math.random().toString(36).substring(7) + new Date().getTime(); 
+  var filename = captured_img_count+mm+test_id+'_'+student_id+'_student.jpg';   //$('#file')[0].files[0].name+'_ashish'; 
+    var filetype = "image/jpeg";//$('#file')[0].files[0].type; 
+  
+
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+
+  var raw = JSON.stringify({"fileName":filename,"fileType":filetype});
+  
+  var requestOptions = {
+    method: 'GET',
+    headers:myHeaders,
+    redirect: 'follow'
+  };
+  //console.log(enc_student_id);
+  //console.log("https://nnq68tibp0.execute-api.ap-south-1.amazonaws.com/dre/fhfgf?fileName=online_assessment/captured_photo/"+enc_student_id+"/"+enc_test_id+"/"+filename+"&fileType="+filetype+"&bucket=entrarschool"+school_id); 
+  //, requestOptions
+  fetch("https://nnq68tibp0.execute-api.ap-south-1.amazonaws.com/dre/fhfgf?fileName=online_assessment/captured_photo/"+enc_student_id+"/"+enc_test_id+"/"+filename+"&fileType="+filetype+"&bucket=entrarschool"+school_id+"")
+    .then(response => response.text())
+    .then(result => {//alert(result);
+                     var url = result;
+          console.log(url);           
+          //alert(url);           
+        
+      fileUpload(url, filetype);
+      
+    })
+    .catch(error => console.log('error1', error));
+    
+    captured_img_count++;
+}
+
+
+
+function fileUpload(url, filetype)
+{
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type",filetype);
+
+  var requestOptions = {
+    method: 'PUT',
+    headers: myHeaders,
+    body: APP.myfileData,
+    redirect: 'follow'
+  };
+
+  fetch(url, requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error2', error));
+}
+//s3 bucket file upload end
+
+
+
+
+
+//***************************************
+//screen capture capture photos
+//***************************************
+var is_screen_capture_active = $('#is_screen_capture_active').val();
+//alert(is_screen_capture_active);
+if(is_screen_capture_active==1)
+{
+var screen_capture_time = parseInt($('#screen_capture_time').val());
+//alert(screen_capture_time);
+window.setInterval(function(){
+  const screencanvas = window.canvas = document.getElementById('canvasv');//document.querySelector('canvas');
+  var screenvideo = document.getElementById('gum-local');
+
+   screencanvas.width = screenvideo.videoWidth;
+   screencanvas.height = screenvideo.videoHeight;
+   screencanvas.getContext('2d').drawImage(screenvideo, 0, 0, screencanvas.width, screencanvas.height);
+   var mimeType =  "image/jpeg";
+  var dataUrl = screencanvas.toDataURL("image/jpeg", 0.85);
+
+  var res = dataUrl.split(":");
+
+  //console.log('Screen captured Img= '+dataUrl+'='+res[1]); 
+  if (res[1] != "," && isScreenShare===true) 
+  {
+     // Convert canvas to Blob, then Blob to ArrayBuffer.
+    screencanvas.toBlob((blob) => {
+    const reader = new FileReader();
+    reader.addEventListener('loadend', (evt) => {
+      const arrayBuffer = evt.target.result;
+     // bufferByteLen.textContent = arrayBuffer.byteLength + ' bytes.';
+      
+      // Dispay Blob content in an Image.
+      const blob = new Blob([arrayBuffer], {type: mimeType});
+      //APP.myfileData = URL.createObjectURL(blob);
+    });
+    reader.readAsArrayBuffer(blob);
+    reader.onload = function (evt) 
+      {                 
+         var text = evt.target.result;         
+         APP.myScreenCapturedfileData = text;
+               
+      }
+    
+    }, mimeType);
+  
+  
+  
+    var test_id = $('#test_id').val();
+    var school_id = $('#school_id').val();
+    var student_id = $('#student_id').val();
+    
+    var enc_student_id = $('#enc_student_id').val();
+    var enc_school_id = $('#enc_school_id').val();
+    var enc_test_id = $('#enc_test_id').val();
+
+    //file upload in s3 bucket  
+    screenCaptureFileUploadS3(test_id, school_id, student_id, enc_student_id, enc_school_id, enc_test_id); 
+  }
+    
+}, screen_capture_time);// 20 sec
+}
+
+//===============================================================================================
+var screencaptured_img_count = 1;
+function screenCaptureFileUploadS3(test_id, school_id, student_id, enc_student_id, enc_school_id, enc_test_id)
+{
+  var mm = Math.random().toString(36).substring(7) + new Date().getTime(); 
+  var filename = screencaptured_img_count+mm+test_id+'_'+student_id+'_student.jpg';   //$('#file')[0].files[0].name+'_ashish'; 
+    var filetype = "image/jpeg";//$('#file')[0].files[0].type; 
+  
+
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+
+  var raw = JSON.stringify({"fileName":filename,"fileType":filetype});
+  
+  var requestOptions = {
+    method: 'GET',
+    headers:myHeaders,
+    redirect: 'follow'
+  };
+  
+  //, requestOptions
+  fetch("https://nnq68tibp0.execute-api.ap-south-1.amazonaws.com/dre/fhfgf?fileName=online_assessment/screen_captured_photo/"+enc_student_id+"/"+enc_test_id+"/"+filename+"&fileType="+filetype+"&bucket=entrarschool"+school_id+"")
+    .then(response => response.text())
+    .then(result => {//alert(result);
+                     var url = result;
+         console.log(url);           
+          //alert(url);           
+        
+      screenCapturedfileUpload(url, filetype);
+      
+    })
+    .catch(error => console.log('error1', error));
+    
+    screencaptured_img_count++;
+}
+
+//===============================================================================================
+function screenCapturedfileUpload(url, filetype)
+{
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type",filetype);
+
+  var requestOptions = {
+    method: 'PUT',
+    headers: myHeaders,
+    body: APP.myScreenCapturedfileData,
+    redirect: 'follow'
+  };
+
+  fetch(url, requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error2', error));
+}
+//***************************************
+//screen capture photos End 
+//***************************************
+
+
+
+
+
+
+
+
+
+  
+//start button modal box  
+ document.getElementById('fullscreen-div').addEventListener('fullscreenchange', (event) => {
+  // document.fullscreenElement will point to the element that
+  // is in fullscreen mode if there is one. If not, the value
+  // of the property is null.
+  if (document.fullscreenElement) {
+    console.log(`Element: ${document.fullscreenElement.id} entered fullscreen mode.`);
+  } else {
+    //alert('hi');
+   // $('#exit_fullscreen').hide();
+  $('#locked-small-Modal').modal({backdrop: 'static', keyboard: false});
+    console.log('Leaving full-screen mode.');
+  }
+});
+
+
+document.getElementById('toggle-fullscreen').addEventListener('click', (event) => {
+  if (document.fullscreenElement) {
+    // exitFullscreen is only available on the Document object.
+    document.exitFullscreen();
+  } else {
+    $("#small-Modal").modal('hide');
+     console.log('In full-screen mode 1 start button.');
+    document.getElementById('fullscreen-div').requestFullscreen();
+  }
+});
+//start button modal box end
+
+//teacher explantaion second full screen button
+document.getElementById('fullscreen-div2').addEventListener('fullscreenchange', (event) => {
+  // document.fullscreenElement will point to the element that
+  // is in fullscreen mode if there is one. If not, the value
+  // of the property is null.
+  if (document.fullscreenElement) {
+    console.log(`Element: ${document.fullscreenElement.id} entered fullscreen mode.`);
+  } else {
+    //alert('hi');
+    //$('#exit_fullscreen').hide();
+      //$('#locked-small-Modal').modal({backdrop: 'static', keyboard: false});
+      $('#locked-small-Modal').modal();
+    console.log('Leaving full-screen mode 2.');
+  }
+});
+
+
+document.getElementById('toggle-fullscreen2').addEventListener('click', (event) => {
+  if (document.fullscreenElement) {
+    // exitFullscreen is only available on the Document object.
+    document.exitFullscreen();
+  } else {
+    $("#small-Modal").modal('hide');
+    //unlockRequest();
+  //alert(unlockRequest());
+  if(unlockRequest() == true)
+  {  
+  console.log('In full-screen mode 2 exaplanation button.');
+    document.getElementById('fullscreen-div2').requestFullscreen();
+  }
+  }
+});
+<!--teacher explantaion second full screen button end -->
+
+
+
+function unlockRequest()
+{
+    var test_id = $('#test_id').val();
+    var explanation = $('#explanation').val();            
+
+    if(explanation=='')
+    {
+    alert('Please Enter Explanation.'); 
+    return false;
+    }
+
+    var myData = 'unlockRequest=true&test_id='+test_id+'&explanation='+explanation; 
+
+    jQuery.ajax({
+            type: "POST",
+            dataType:"text", 
+            data:myData, 
+            success:function(response){
+        //alert(response);          
+        if(response==1) 
+        {
+        $('#explanation').val('');    
+        $("#locked-small-Modal").modal('hide');
+        //examtoggleFullScreen();
+
+        }
+        else
+        return false;
+
+              },
+              error:function (xhr, ajaxOptions, thrownError){
+
+              }
+    }); return true;
+}
+
+
+//calculate time add extra minutes in start time
+function GetEndDate(start_date, exam_prep_time_min){ // start_date = "05-25-2017 05:00"
+//alert(start_date);
+  var duration = parseInt(exam_prep_time_min);
+  //var d = fecha.parse(start_date, 'MM-DD-YYYY HH:mm');
+  var d = fecha.parse(start_date, 'YYYY/MM/DD HH:mm');
+///alert(d);
+  d.setMinutes(d.getMinutes() + duration);
+  return fecha.format(d, 'YYYY/MM/DD HH:mm');;
+}
+
+
+//Check internet connected or not
+  function isOnline() 
+  { 
+
+      if (navigator.onLine) 
+      { 
+        //alert('connected');
+        //$("#internet_connection").hide();
+        document.getElementById("internet_connection").className = ""; 
+        document.getElementById("demo").innerHTML = ""; 
+    
+        return true;
+      } 
+      else 
+      { 
+         //alert('disconnected');
+        //document.getElementById("internet_connection").show;
+        //$("#internet_connetion").show();
+        document.getElementById("internet_connection").className = "alert alert-danger background-danger"; 
+        document.getElementById("demo").innerHTML = "You are not connected to the internet. Please check your internet connection."; 
+    
+      return false;
+      } 
+    } 
+  
+  //check 3rd party internet connection solution
+  function checkInternetConnection()
+  {
+    $.ajax({
+        url:      'https://www.bing.com/aJyfYidjSlA' + new Date().getTime() + '.html',
+        dataType: 'jsonp',
+        timeout:  5000,
+      
+        error: function(xhr) {
+          //alert(xhr.status);
+          if (xhr.status == 404) {
+
+            //internet connection working
+            //alert('connected');
+            document.getElementById("internet_connection").className = ""; 
+            document.getElementById("demo").innerHTML = ""; 
+            
+            return true;
+          }
+          else {
+            //internet is down (xhr.status == 0)
+            //alert('internet is down');
+            document.getElementById("internet_connection").className = "alert alert-danger background-danger"; 
+            document.getElementById("demo").innerHTML = "You are not connected to the internet. Please check your internet connection."; 
+            
+            return false;
+          }
+        }
+      });       
+  }
+  
+  function fetchQuestionPallete()
+  {
+    //Fetch print Question Pallete
+      var myData = 'showQuestionPallete=true'; 
+         // alert(myData);    
+      jQuery.ajax({
+      type: "POST",
+      dataType:"text", 
+      data:myData, 
+      success:function(response){
+            //alert(response);      
+        $("#question_pallete_section").html(response); //show submit button                   
+        },
+        error:function (xhr, ajaxOptions, thrownError){
+        
+        }
+      });
+      //Question Pallete End here 
+  }
+  
+  
+
+
+</script>
+<style type="text/css">
+    
+.selected{
+  
+background-color:red;    
+    
+}
+
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--[if lt IE 10]><![endif]-->
+
+
+
+<!--[if lt IE 10]>
+    <div class="ie-warning">
+        <h1>Warning!!</h1>
+        <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+        <div class="iew-container">
+            <ul class="iew-download">
+                <li>
+                    <a href="http://www.google.com/chrome/">
+                        <img src="https://entrar.in/entrar_responsive_assets/files/assets/images/browser/chrome.png" alt="Chrome">
+                        <div>Chrome</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/">
+                        <img src="https://entrar.in/entrar_responsive_assets/files/assets/images/browser/firefox.png" alt="Firefox">
+                        <div>Firefox</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.opera.com">
+                        <img src="https://entrar.in/entrar_responsive_assets/files/assets/images/browser/opera.png" alt="Opera">
+                        <div>Opera</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/safari/">
+                        <img src="https://entrar.in/entrar_responsive_assets/files/assets/images/browser/safari.png" alt="Safari">
+                        <div>Safari</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                        <img src="https://entrar.in/entrar_responsive_assets/files/assets/images/browser/ie.png" alt="">
+                        <div>IE (9 & above)</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>Sorry for the inconvenience!</p>
+    </div>
+    <![endif]-->
+
+</body>
+</html>
